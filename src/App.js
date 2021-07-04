@@ -1,24 +1,34 @@
 import logo from './logo.svg';
 import './App.css';
+import Routes from './Routes';
+
+import { BreakpointProvider, Breakpoint } from 'react-socks';
+
+// Icons
+import { library } from "@fortawesome/fontawesome-svg-core";
+// general
+import { faEnvelope, faArrowLeft } from '@fortawesome/free-solid-svg-icons';
 
 function App() {
+  library.add(
+    faEnvelope, faArrowLeft
+  );
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BreakpointProvider>
+      <div className="App">
+        <Breakpoint medium up>
+          <div className="Medium">
+            <Routes/>
+          </div>
+        </Breakpoint>
+        <Breakpoint small down>
+          <div className="Small">
+            <Routes/>
+          </div>
+        </Breakpoint>
+      </div>
+    </BreakpointProvider>
   );
 }
 
