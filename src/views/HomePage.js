@@ -9,7 +9,7 @@ export default function HomePage(){
 		<div className="HomePage">
 			<h1 className="Name">MARISSA PANG</h1>
 			<span className="Contact">
-				&thinsp; marissapang@live.com
+				marissapang@live.com
 				<OrangeBullet/>
 				<a target="_blank" href="https://linkedin.com/in/marissapang">
 					linkedin.com/in/marissapang
