@@ -1,9 +1,12 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import './HomePage.css';
-
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import ReactGA from 'react-ga';
 
 export default function HomePage(){
+	useEffect(() => {
+		ReactGA.pageview(window.location.pathname);
+	}, []);
 
 	return (
 		<div className="HomePage">

@@ -1,11 +1,16 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import './Seven.css';
 
 import { useHistory } from 'react-router-dom';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import ReactGA from 'react-ga';
 
 export default function Seven(){
+	useEffect(() => {
+		ReactGA.pageview(window.location.pathname);
+	}, []);
+
 	const history = useHistory();
 	function gotoHome(){
 		history.push('/')

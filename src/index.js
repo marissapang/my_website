@@ -6,6 +6,11 @@ import reportWebVitals from './reportWebVitals';
 
 import { BrowserRouter as Router } from 'react-router-dom';
 
+// Google analytics
+import ReactGA from 'react-ga';
+const TRACKING_ID = 'UA-201399781-1'; // UA GOOGLE ID
+ReactGA.initialize(TRACKING_ID);
+
 ReactDOM.render(
 	<Router>
     	<App/>
