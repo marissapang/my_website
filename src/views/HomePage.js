@@ -38,6 +38,12 @@ export default function HomePage(){
 					</a>
 					: An exceptional phone service tailored for international students
 				</li>
+				<li>
+					<a className="ProjectName" target="_blank" href="https://cleancourse.org/">
+						CleanCourse
+					</a>
+					: High-efficiency carbon offset services for individuals
+				</li>
 			</ul>
 			<div style={{height:"30px"}}/>
 
@@ -60,19 +66,12 @@ export default function HomePage(){
 						C19Trends
 					</a>
 					: Minimalist application for personalized Covid-19 dashboards
-
 				</li>
 			</ul>
 			<div style={{height:"30px"}}/>
 
 			<h3>WORK IN PROGRESS</h3>
 			<ul>
-				<li>
-					<a className="InactiveProjectName">
-						CleanCourse Inc
-					</a>
-					: High-efficiency carbon offset services for individuals
-				</li>
 				<li>
 					<a className="InactiveProjectName">
 						monch
