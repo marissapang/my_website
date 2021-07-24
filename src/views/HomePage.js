@@ -42,7 +42,7 @@ export default function HomePage(){
 					<a className="ProjectName" target="_blank" href="https://cleancourse.org/">
 						CleanCourse
 					</a>
-					: High-efficiency carbon offset services for individuals
+					: High-efficiency carbon offset services for individuals. Founded by Steven Pang.
 				</li>
 			</ul>
 			<div style={{height:"30px"}}/>
