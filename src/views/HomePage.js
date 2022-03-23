@@ -25,7 +25,8 @@ export default function HomePage(){
 			<div className="Divider"/>
 			<div className="Bio">
 				I like to build useful tools and games. 
-				Have some thoughts on my projects? Got an idea you want to see built? 
+				Got some thoughts on my projects? 
+				Want to see a user experience made better?
 				Reach out!
 			</div>
 			<div className="Divider"/>
