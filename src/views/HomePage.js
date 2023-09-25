@@ -34,6 +34,12 @@ export default function HomePage(){
 			<h3>THE LATEST</h3>
 			<ul>
 				<li>
+					<a className="ProjectName" target="_blank" href="https://whisperwindow.blushdunes.com">
+						Whisper Window
+					</a>
+					: No-drill soundproofing and blackout panels designed for owners and renters
+				</li>
+				<li>
 					<a className="ProjectName" target="_blank" href="https://f1plans.com">
 						F1Plans
 					</a>
